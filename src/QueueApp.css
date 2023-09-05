@@ -1,0 +1,36 @@
+li {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 1px;
+  background: limegreen;
+  color: black;
+  user-select: none;
+  cursor: pointer;
+}
+
+button {
+  padding: 5px;
+  margin: 2px;
+  font-weight: 600;
+  background-color: blue;
+  border: 1px solid black;
+}
+
+button:hover,
+.valueInput:hover,
+.inputRestrict:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.valueInput {
+  height: 30x;
+  padding-left: 8px;
+  margin-bottom: 10px;
+}
+
+.inputRestrict {
+  width: 25px;
+  height: 25px;
+  margin-top: 10px;
+}
